@@ -1,0 +1,16 @@
+.SidebarLogo{
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.iconsList{
+    list-style: none;
+}
+
+.iconsList li{
+    color: gray;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
