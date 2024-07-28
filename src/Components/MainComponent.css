@@ -1,4 +1,4 @@
-.Container{
+.Container {
     background-color: #f7faff;
     border: none;
     border-radius: 10px;
@@ -6,33 +6,135 @@
     padding-left: 20px;
     padding-right: 10px;
 }
-.WelcomeBanner{
+
+.WelcomeBanner {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     border: 2px solid black;
     background-color: white;
-    padding-left: 10px;
+    padding: 10px;
     border-radius: 20px;
 }
-.WelcomeBanner img{
-    position: absolute;
+
+.WelcomeBanner img {
     height: 300px;
-    right: 280px;
-    bottom: 340px;
+    margin-left: 20px;
+    position: absolute;
+    left: 700px;
+    top: 10px;
 }
-.WelcomeBannerInner{
+
+.WelcomeBannerInner {
     margin-left: 10px;
 }
-.WelcomeBannerInner h1{
+
+.WelcomeBannerInner h1 {
     margin-top: 0;
     color: #6d48f4;
     font-size: 8vh;
     margin-bottom: 0px;
 }
-.WelcomeBannerInner h2{
+
+.WelcomeBannerInner h2 {
     margin-bottom: 0;
 }
-.spanDiv{
+
+.spanDiv {
     color: gray;
     margin-top: 5px;
     margin-bottom: 15px;
+}
+
+.progress-bar__wrapper {
+    position: relative;
+}
+
+.progress-bar__value {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+progress {
+    width: 100%;
+    height: 10px;
+    border-radius: 50px;
+    background-color: #ddd;
+    transition: width 300ms ease;
+}
+
+progress[value]::-webkit-progress-bar {
+    width: 100%;
+    height: 10px;
+    border-radius: 50px;
+    background-color: #ddd;
+    transition: width 300ms ease;
+}
+
+progress[value]::-webkit-progress-value {
+    width: 0;
+    border-radius: 50px;
+    background-color: blue;
+    transition: width 300ms ease;
+}
+
+.Card img {
+    width: 100%;
+}
+
+.Card {
+    width: 200px;
+    height: auto;
+    background-color: #fbfaff;
+}
+
+.Progress {
+    margin-top: 20px;
+    padding-top: 10px;
+    background-color: #eeeeee;
+    margin-bottom: 10px;
+}
+
+.cardBorder {
+    border: 1px solid black;
+}
+
+.CardContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.cardTitle {
+    margin-top: 20px;
+    font-weight: 600;
+    color: rgb(37, 37, 37);
+}
+.ValueOfProgress{
+    margin-top: 10px;
+    font-size: smaller;
+    display: flex;
+    justify-content: space-between;
+}
+.AddmoreImageContainer img{
+    width: 200px;
+}
+.AddmoreImageText{
+    position: absolute;
+    top:750px;
+    left: 635px;
+}
+.AddmoreImageTextSpan{
+    position: absolute;
+    top:820px;
+    left: 600px;
 }
