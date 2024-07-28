@@ -7,7 +7,7 @@ import './Sidebar.css'
 const Sidebar = () => {
 return (
     <div>
-        <div>
+        <div className='leftSideBarContainer'>
             <div className='SidebarContainer'>
                 <img src={imagelogo} alt="logo" className='SidebarLogo'/>
             </div>

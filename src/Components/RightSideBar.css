@@ -1,0 +1,85 @@
+.topProfileContainer {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 40px;
+    gap: 10px;
+}
+
+.profileInfo img {
+    width: 30px;
+    height: 30px;
+    margin-left: 2px;
+}
+
+.profileInfo h4 {
+    margin-right: 4px;
+}
+
+.profileInfo {
+    display: flex;
+    align-items: center;
+    background-color: #f7faff;
+    border: none;
+    border-radius: 10%;
+    height: 40px;
+}
+
+.profileInfo h4 {
+    font-weight: 400;
+}
+
+.schedule {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+.schedule h6 {
+    color: #6d48f4;
+}
+
+.scheduleName {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.scheduleName h6 {
+    margin: 0;
+    font-weight: 100;
+    font-size: smaller;
+    color: grey;
+}
+
+.scheduleItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.scheduleItem img {
+    height: 30px;
+    width: 30px;
+    background-color: #e38ef1;
+    border: none;
+    border-radius: 50%;
+}
+
+.scheduleItem h3 {
+    margin: 0;
+}
+
+.scheduleItemContainer {
+    background-color: #f7faff;
+    padding: 10px;
+    border-radius: 8px;
+}
+.scheduleList{
+    list-style: none;
+}
+.scheduleListItem{
+    margin-top: 30px;
+}
