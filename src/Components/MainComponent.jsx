@@ -1,7 +1,8 @@
 import './MainComponent.css';
 import dashboardImage from '../assets/MainComponent.png';
 import cardImage from '../assets/CardImage.png';
-import addMoreImage from '../assets/Addmore.png'
+import {Bar} from 'react-chartjs-2'
+import BarChart from './BarChart';
 
 const MainComponent = () => {
   return (
@@ -50,29 +51,38 @@ const MainComponent = () => {
               </div>
             </div>
           </div>
-          <div className="cardBorder">
-            <div className='Card'>
-              <img src={cardImage} alt="Course" />
-              <div className='cardTitle'>
-                <span>Complete JavaScript Course for Beginners</span>
-              </div>
-              <div className='Progress'>
-                <progress id="progress-bar" value="35" max="100"></progress>
-                <div className='ValueOfProgress'>
-                  <span>Completed 35%</span>
-                  <span> Days 12/92</span>
-                </div>
+          <div className='AddmoreImageContainer'>
+            <div className='FindMoreCoursesContainer'>
+              <div className='displayCourse'>
+                <p id='PlusIcon'>+</p>
+                <p id='FindMoreCoueses'>Find more <br /> Courses</p>
               </div>
             </div>
           </div>
-          <div className='AddmoreImageContainer'>
-            <img src={addMoreImage} alt="Add more" />
-            <div className='AddmoreImageText'>
-              <h1>+</h1>
+        </div>
+      </div>
+      <div className='statics'>
+        <div className='BarGraphContainer'>
+        <div className='barGraph'>
+          <div className='HourSpend'>
+            <h2>Hours Spent</h2>
+            <p>View All</p>
+          </div>
+            <p>12 h 32 min</p>
+            <div className='barChart'>
+              <BarChart/>
             </div>
-            <div className='AddmoreImageTextSpan'>
-              <span>find More Courses</span>
+        </div>
+        </div>
+        <div className='PieGraphContainer'>
+          <div className='titleOfProgress'>
+            <h2>Your Progress</h2>
+          <div className='PieGraph'>
+            <div className='PieGraphvalue'>
+              <h4>78</h4>
+              <span>%</span>
             </div>
+          </div>
           </div>
         </div>
       </div>

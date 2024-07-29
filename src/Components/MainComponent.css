@@ -138,3 +138,111 @@ progress[value]::-webkit-progress-value {
     top:820px;
     left: 600px;
 }
+
+.statics{
+    display: flex;
+    justify-content: space-between;
+}
+
+.PieGraph{
+    height: 150px;
+    width: 150px;
+    border: none;
+    border-radius: 50%;
+    background: rgb(187,86,255);
+    background: linear-gradient(90deg, rgba(187,86,255,1) 10%, rgba(255,223,249,1) 100%, rgba(253,29,29,1) 100%, rgba(253,69,40,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.PieGraphvalue{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 75px;
+    width: 75px;
+    border: none;
+    border-radius: 50%;
+
+}
+.FindMoreCoursesContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eedafb;
+    height: 290px;
+    width: 200px;
+    border: 2px dashed black;
+    border-radius: 14px;
+}
+.displayCourse{
+    text-align: center;
+}
+#PlusIcon{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 100px;
+}
+#FindMoreCoueses{
+    font-size: large;
+}
+.barGraph{
+    padding-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+.barGraph h2{
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-bottom: 0px;
+}
+.barGraph p{
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+    font-weight: lighter;
+    color: gray;
+}
+.HourSpend{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.HourSpend p{
+    color: #6d48f4;
+    font-weight: 600;
+}
+.PieGraphContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+.titleOfProgress h2{
+    text-align: left;
+}
+.BarGraphContainer{
+    width: 450px;
+}
+.barChart{
+    height: 160px;
+    width: 450px;
+}
+
+.PieGraphvalue h4{
+    font-size: 35px;
+    color: #6d48f4;
+    font-weight: 550;
+}
+.PieGraphvalue span{
+    color: #6d48f4;
+}
